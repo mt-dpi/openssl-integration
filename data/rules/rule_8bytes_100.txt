@@ -1,0 +1,100 @@
+HTTP/1.1
+TP/1.1 2
+.forward
+pass -is
+ass -iss
+ss -iss@
+s -iss@i
+ -iss@is
+-iss@iss
+pass wh0
+ass wh00
+ss wh00t
+pass -ck
+ass -ckl
+ss -ckla
+s -cklau
+ -cklaus
+pass -sa
+ass -sai
+ss -sain
+s -saint
+pass -sa
+ass -sat
+ss -sata
+s -satan
+ --use-c
+--use-co
+-use-com
+use-comp
+se-compr
+e-compre
+-compres
+compress
+ompress-
+mpress-p
+press-pr
+ress-pro
+ess-prog
+ss-progr
+s-progra
+-program
+program 
+C|3A 5C|
+"|0d 0a|
+USER ano
+SER anon
+ER anony
+R anonym
+ anonymo
+anonymou
+nonymous
+onymous|
+nymous|0
+ymous|0d
+mous|0d 
+ous|0d 0
+us|0d 0a
+s|0d 0a|
+|0d 0a|P
+0d 0a|PA
+d 0a|PAS
+ 0a|PASS
+0a|PASS 
+a|PASS J
+|PASS Ja
+PASS Jav
+ASS Java
+SS Java1
+S Java1.
+authoriz
+uthorize
+thorized
+horized_
+orized_k
+rized_ke
+ized_key
+zed_keys
+USER|20|
+E Fatal 
+ Fatal e
+Fatal er
+atal err
+tal erro
+|3A| no 
+3A| no s
+A| no su
+| no suc
+ no such
+no such 
+o such u
+ such us
+such use
+uch user
+|3A| no 
+3A| no s
+A| no su
+| no suc
+ no such
+no such 
+o such r

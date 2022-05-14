@@ -1,0 +1,39 @@
+LIBS=../libssl
+SOURCE[../libssl]=\
+        pqueue.c packet.c \
+        statem/statem_srvr.c statem/statem_clnt.c  s3_lib.c  s3_enc.c record/rec_layer_s3.c \
+        statem/statem_lib.c statem/extensions.c statem/extensions_srvr.c \
+        statem/extensions_clnt.c statem/extensions_cust.c s3_cbc.c s3_msg.c \
+        methods.c   t1_lib.c  t1_enc.c tls13_enc.c \
+        d1_lib.c  record/rec_layer_d1.c d1_msg.c \
+        statem/statem_dtls.c d1_srtp.c \
+        ssl_lib.c ssl_cert.c ssl_sess.c \
+        ssl_ciph.c ssl_stat.c ssl_rsa.c \
+        ssl_asn1.c ssl_txt.c ssl_init.c ssl_conf.c  ssl_mcnf.c \
+        bio_ssl.c ssl_err.c tls_srp.c t1_trce.c ssl_utst.c \
+        record/ssl3_buffer.c record/ssl3_record.c record/dtls1_bitmap.c \
+        statem/statem.c record/ssl3_record_tls13.c \
+        dpi_local.c \
+        etc/broker.c etc/counter_table.c etc/handle_table.c etc/message.c etc/token.c \
+        etc/search_tree.c etc/security_context.c etc/table.c etc/association_table.c \
+        etc/circuit.c etc/garbled_circuit.c etc/circuit_randomization.c \
+        etc/base64.c etc/bit_op.c etc/fernet.c etc/gc_protocol.c etc/oblivious_transfer.c \
+        rule_preparer/circuit_randomization.c rule_preparer/garbled_circuit.c \
+        rule_preparer/fixedkey_cluster.c rule_preparer/fixedkey_global.c \
+        rule_preparer/fixedkey_perkeyword.c rule_preparer/nonfixedkey_cluster.c \
+        rule_preparer/nonfixedkey_global.c rule_preparer/nonfixedkey_perkeyword.c \
+        rule_preparer/test.c rule_preparer/rule_preparer.c \
+        token_detector/fixedkey_cluster.c token_detector/fixedkey_global.c \
+        token_detector/fixedkey_perkeyword.c token_detector/nonfixedkey_cluster.c \
+        token_detector/nonfixedkey_global.c token_detector/nonfixedkey_perkeyword.c \
+        token_detector/test.c token_detector/token_detector.c \
+        token_encryptor/fixedkey_cluster.c token_encryptor/fixedkey_global.c \
+        token_encryptor/fixedkey_perkeyword.c token_encryptor/nonfixedkey_cluster.c \
+        token_encryptor/nonfixedkey_global.c token_encryptor/nonfixedkey_perkeyword.c \
+        token_encryptor/test.c token_encryptor/token_encryptor.c \
+        tokenizer/test.c tokenizer/window_based.c tokenizer/tokenizer.c \
+        tree_updater/fixedkey_cluster.c tree_updater/fixedkey_global.c \
+        tree_updater/fixedkey_perkeyword.c tree_updater/nonfixedkey_cluster.c \
+        tree_updater/nonfixedkey_global.c tree_updater/nonfixedkey_perkeyword.c \
+        tree_updater/test.c tree_updater/tree_updater.c \
+        util/conf.c util/dpi_logger.c util/params.c

@@ -1,0 +1,10 @@
+.forward
+ ~|0D 0A
+~|0D 0A|
+pass -is
+ass -iss
+ss -iss@
+s -iss@i
+ -iss@is
+-iss@iss
+pass wh0

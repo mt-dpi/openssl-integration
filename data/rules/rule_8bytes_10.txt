@@ -1,0 +1,10 @@
+HTTP/1.1
+TP/1.1 2
+.forward
+pass -is
+ass -iss
+ss -iss@
+s -iss@i
+ -iss@is
+-iss@iss
+pass wh0

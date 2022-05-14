@@ -1,0 +1,5 @@
+1. Move logger.h, logs.h, defines.h, and debug.h to the packet include directory
+
+2. Revise generic_* to customized ones
+
+3. Implement generic_*.c to ones

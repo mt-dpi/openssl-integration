@@ -1,0 +1,38 @@
+Fixed key encryption (line-by-line) >>>
+Time: context = dpi_get_security_context();: 2.83 ns
+Time: table = dpi_get_counter_table();: 2.16 ns
+Time: entry = add_counter_table_token();: 17.92 ns
+Time: count = entry->count++: 1.86 ns
+Time: ectx = get_context_encryption_context();: 2.12 ns
+Time: eevp = get_context_cipher_algorithm();: 2.12 ns
+Time: skey = get_context_secret();: 2.83 ns
+Time: salt = get_context_salt();: 2.12 ns
+Time: salt += count;: 1.59 ns
+Time: VAR_TO_PTR_8BYTES(salt, sbuf);: 1.75 ns
+Time: rs = get_context_rs_value(context);: 2.17 ns
+Time: bsize = get_context_block_size(context);: 2.17 ns
+Time: ememxor(tmp, (token->value), skey);: 4.58 ns
+Time: rc = EVP_EncryptUpdate(ectx, hval, &hlen, tmp, bsize);: 18.04 ns
+Time: ememxor3(hval, hval, skey, sbuf);: 5.07 ns
+Time: EVP_EncryptUpdate(ectx, eval, &elen, tmp, bsize);: 17.52 ns
+Time: ememxor(eval, eval, hval);: 3.92 ns
+Time: ret = init_etoken(eval, rs);: 55.96 ns
+
+Non-fixed key encryption (line-by-line) >>>
+Time: context = dpi_get_security_context();: 2.18 ns
+Time: table = dpi_get_counter_table();: 2.16 ns
+Time: entry = add_counter_table_token();: 18.80 ns
+Time: count = entry->count++: 1.87 ns
+Time: ectx = get_context_encryption_context();: 2.12 ns
+Time: eevp = get_context_cipher_algorithm();: 2.22 ns
+Time: salt = get_context_salt();: 2.20 ns
+Time: rs = get_context_rs_value(context);: 2.16 ns
+Time: bsize = get_context_block_size(context);: 2.17 ns
+Time: rc = EVP_EncryptUpdate(ectx, etkey, &etlen, token->value, token->len);: 20.21 ns
+Time: etctx = EVP_CIPHER_CTX_new();: 69.93 ns
+Time: rc = EVP_EncryptInit_ex(etctx, eevp, NULL, etkey, NULL);: 77.12 ns
+Time: salt += count;: 1.59 ns
+Time: VAR_TO_PTR_8BYTES(salt, sbuf);: 1.75 ns
+Time: rc = EVP_EncryptUpdate(etctx, enc, &elen, sbuf, bsize);: 17.18 ns
+Time: ret = init_etoken(eval, rs);: 54.16 ns
+

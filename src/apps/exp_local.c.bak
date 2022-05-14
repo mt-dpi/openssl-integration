@@ -1,0 +1,129 @@
+#include <dpi.h>
+#include <stdlib.h>
+#include <debug.h>
+#include <stdio.h>
+#include <getopt.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+  dpi_t *dpi;
+  conf_t *conf;
+  uint8_t *buf;
+  int ret, len, fsize;
+  uint8_t *value;
+  token_t *token;
+  etoken_t *etoken;
+  FILE *fp;
+  const char *iname;
+
+  unsigned long init_start_time, init_end_time;
+  unsigned long start_time, end_time;
+  unsigned long te_start_time, te_end_time, te_total_time; 
+  int te_count_time;
+  unsigned long td_start_time, td_end_time, td_total_time; 
+  int td_count_time;
+
+  unsigned long init_start_cpu, init_end_cpu;
+  unsigned long start_cpu, end_cpu;
+  unsigned long te_start_cpu, te_end_cpu, te_total_cpu; 
+  int te_count_cpu;
+  unsigned long td_start_cpu, td_end_cpu, td_total_cpu; 
+  int td_count_cpu;
+
+  te_count_time = 0;
+  te_count_cpu = 0;
+  td_count_time = 0;
+  td_count_cpu = 0;
+
+  conf = init_conf_module();
+  set_conf_module(conf, argc, argv);
+  dpi = init_dpi_context(DPI_ROLE_MIDDLEBOX, conf);
+  free_conf_module(conf);
+
+  init_start_time = dpi_get_current_time();
+  init_start_cpu = dpi_get_current_cpu();
+  dpi_rule_preparation(dpi);
+  init_end_time = dpi_get_current_time();
+  init_end_cpu = dpi_get_current_cpu();
+
+  iname = dpi_get_input_filename(dpi);
+  printf("input filename: %s\n", iname);
+  fp = fopen(iname, "r");
+  if (fp)
+  {
+    fseek(fp, 0, SEEK_END);
+    fsize = ftell(fp);
+    rewind(fp);
+
+    buf = (uint8_t *)malloc(fsize);
+    fread(buf, 1, fsize, fp);
+
+    fclose(fp);
+  }
+
+  printf("file load: %d bytes\n", fsize);
+  dpi_add_message(dpi, buf, fsize);
+
+  start_time = dpi_get_current_time();
+  start_cpu = dpi_get_current_cpu();
+  do
+  {
+    token = dpi_get_next_token(dpi);
+    if (token)
+    {
+      imsg(DPI_DEBUG_MIDDLEBOX, "Token: %s", dpi_get_token_value(token));
+      te_start_time = dpi_get_current_time();
+      te_start_cpu = dpi_get_current_cpu();
+      etoken = dpi_token_encryption(dpi, token);
+      te_end_time = dpi_get_current_time();
+      te_end_cpu = dpi_get_current_cpu();
+
+      value = dpi_get_encrypted_token_value(etoken);
+      len = dpi_get_encrypted_token_length(etoken);
+      iprint(DPI_DEBUG_MIDDLEBOX, "Encrypted Token", value, 0, len, 16);
+      td_start_time = dpi_get_current_time();
+      td_start_cpu = dpi_get_current_cpu();
+      ret = dpi_token_detection(dpi, etoken);
+      td_end_time = dpi_get_current_time();
+      td_end_cpu = dpi_get_current_cpu();
+      if (ret)
+      {
+        imsg(DPI_DEBUG_MIDDLEBOX, "Result: Found");
+      }
+      else
+      {
+        imsg(DPI_DEBUG_MIDDLEBOX, "Result: Not Found");
+      }
+
+      te_total_time += (te_end_time - te_start_time);
+      td_total_time += (td_end_time - td_start_time);
+      te_count_time++;
+      td_count_time++;
+
+      te_total_cpu += (te_end_cpu - te_start_cpu);
+      td_total_cpu += (td_end_cpu - td_start_cpu);
+      te_count_cpu++;
+      td_count_cpu++;
+    }
+  } while (token);
+  end_time = dpi_get_current_time();
+  end_cpu = dpi_get_current_cpu();
+  
+  printf("Elapsed Time (init): %lu us\n", init_end_time - init_start_time);
+  printf("CPU Time (init): %lu us\n", init_end_cpu - init_start_cpu);
+
+  printf("Elapsed Time (tokens): %lu us\n", end_time - start_time);
+  printf("CPU Time (tokens): %lu us\n", end_cpu - start_cpu);
+
+  printf("# of Token Encryption: %d\n", te_count_time);
+  printf("Token Encryption Time (%d): %.2f us\n", te_count_time, te_total_time / (double)te_count_time);
+  printf("Token Encryption CPU (%d): %.2f us\n", te_count_cpu, te_total_cpu / (double)te_count_cpu);
+
+  printf("# of Token Detection: %d\n", td_count_time);
+  printf("Token Detection Time (%d): %.2f us\n", td_count_time, td_total_time / (double)td_count_time);
+  printf("Token Detection CPU (%d): %.2f us\n", td_count_cpu, td_total_cpu / (double)td_count_cpu);
+
+  free_dpi_context(dpi);
+  return 0;
+}

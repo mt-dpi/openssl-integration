@@ -1,0 +1,2 @@
+V	221202055706Z		33FB18FB699ACF99E9D6D0AD54C640EE398D7B80	unknown	/C=KR/ST=Seoul/L=Seoul/O=MT-DPI/OU=MT-DPI/CN=www.mt-dpi.com/emailAddress=www@mt-dpi.com
+V	221213040053Z		33FB18FB699ACF99E9D6D0AD54C640EE398D7B81	unknown	/C=US/ST=Indiana/L=West Lafayette/O=MT-DPI Middlebox/OU=MT-DPI/CN=*.mt-mb.com/emailAddress=mb@mt-dpi.com

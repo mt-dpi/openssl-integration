@@ -1,0 +1,46 @@
+token_detector/fixedkey_global.c:51:    while (tree->count > 0)
+token_detector/fixedkey_global.c:53:      handle = delete_search_tree_token(tree, tree->root->etoken);
+token_detector/blindbox_global.c:49:    while (tree->count > 0)
+token_detector/blindbox_global.c:51:      handle = delete_search_tree_token(tree, tree->root->etoken);
+이진파일 libdpi.a 와(과) 일치
+이진파일 tests/init_test 와(과) 일치
+이진파일 tests/token_encryptor_test 와(과) 일치
+tests/search_tree_test.c:27:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:38:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:49:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:66:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:82:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:99:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:115:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:131:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:147:  traverse_search_tree(tree->root);
+tests/search_tree_test.c:163:  traverse_search_tree(tree->root);
+이진파일 tests/token_detector_test 와(과) 일치
+tests/test_global_counter.c:42:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:48:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:54:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:66:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:77:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:88:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:99:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:110:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:121:  traverse_search_tree(tree->root);
+tests/test_global_counter.c:132:  traverse_search_tree(tree->root);
+이진파일 tests/tokenizer_test 와(과) 일치
+이진파일 tests/search_tree_file_test 와(과) 일치
+이진파일 rule_preparer/fixedkey_global.o 와(과) 일치
+rule_preparer/fixedkey_global.c:121:    printf("fixedkey> tree->count: %d\n", tree->count);
+이진파일 rule_preparer/blindbox_global.o 와(과) 일치
+rule_preparer/blindbox_global.c:109:    printf("blindbox rule> tree->count: %d\n", tree->count);
+이진파일 apps/exp_local 와(과) 일치
+etc/search_tree.c:99:    while (tree->root)
+etc/search_tree.c:101:      delete_search_tree_token(tree, tree->root->etoken);
+etc/search_tree.c:171:  if (tree->root)
+etc/search_tree.c:172:    ret = search_node(tree, tree->root, token);
+etc/search_tree.c:193:  dprint(DPI_DEBUG_MIDDLEBOX, "tree->root", (tree->root->etoken->value), 0, (tree->root->etoken->len), 16);
+etc/search_tree.c:273:  dprint(DPI_DEBUG_MIDDLEBOX, "tree->root", (tree->root->etoken->value), 0, (tree->root->etoken->len), 16);
+etc/search_tree.c:472:    tree->count++;
+etc/search_tree.c:473:    imsg(DPI_DEBUG_MIDDLEBOX, "Total %d token inserted", tree->count);
+etc/search_tree.c:541:    tree->root = delete_node(tree, tree->root, etoken, &ret);
+etc/search_tree.c:542:    tree->count--;
+etc/search_tree.c:543:    imsg(DPI_DEBUG_MIDDLEBOX, "Total %d tokens left", tree->count);

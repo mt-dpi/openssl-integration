@@ -1,0 +1,1000 @@
+HTTP/1.1
+TP/1.1 2
+.forward
+pass -is
+ass -iss
+ss -iss@
+s -iss@i
+ -iss@is
+-iss@iss
+pass wh0
+ass wh00
+ss wh00t
+pass -ck
+ass -ckl
+ss -ckla
+s -cklau
+ -cklaus
+pass -sa
+ass -sai
+ss -sain
+s -saint
+pass -sa
+ass -sat
+ss -sata
+s -satan
+ --use-c
+--use-co
+-use-com
+use-comp
+se-compr
+e-compre
+-compres
+compress
+ompress-
+mpress-p
+press-pr
+ress-pro
+ess-prog
+ss-progr
+s-progra
+-program
+program 
+C|3A 5C|
+"|0d 0a|
+USER ano
+SER anon
+ER anony
+R anonym
+ anonymo
+anonymou
+nonymous
+onymous|
+nymous|0
+ymous|0d
+mous|0d 
+ous|0d 0
+us|0d 0a
+s|0d 0a|
+|0d 0a|P
+0d 0a|PA
+d 0a|PAS
+ 0a|PASS
+0a|PASS 
+a|PASS J
+|PASS Ja
+PASS Jav
+ASS Java
+SS Java1
+S Java1.
+authoriz
+uthorize
+thorized
+horized_
+orized_k
+rized_ke
+ized_key
+zed_keys
+USER|20|
+E Fatal 
+ Fatal e
+Fatal er
+atal err
+tal erro
+|3A| no 
+3A| no s
+A| no su
+| no suc
+ no such
+no such 
+o such u
+ such us
+such use
+uch user
+|3A| no 
+3A| no s
+A| no su
+| no suc
+ no such
+no such 
+o such r
+ such re
+such rep
+uch repo
+ch repos
+h reposi
+ reposit
+reposito
+epositor
+pository
+I HATE Y
+ HATE YO
+HATE YOU
+free|28 
+ree|28 2
+ee|28 29
+e|28 29 
+|28 29 3
+28 29 3A
+8 29 3A|
+ 29 3A| 
+29 3A| w
+9 3A| wa
+ 3A| war
+3A| warn
+A| warni
+| warnin
+ warning
+warning|
+arning|3
+rning|3A
+ning|3A|
+ing|3A| 
+ng|3A| c
+g|3A| ch
+|3A| chu
+3A| chun
+A| chunk
+| chunk 
+ chunk i
+chunk is
+hunk is 
+unk is a
+nk is al
+k is alr
+ is alre
+is alrea
+s alread
+ already
+already 
+lready f
+ready fr
+eady fre
+ady free
+E protoc
+ protoco
+protocol
+rotocol 
+otocol e
+tocol er
+ocol err
+col erro
+ol error
+l error|
+ error|3
+error|3A
+rror|3A|
+ror|3A| 
+or|3A| i
+r|3A| in
+|3A| inv
+3A| inva
+A| inval
+| invali
+ invalid
+invalid 
+nvalid d
+valid di
+alid dir
+lid dire
+id direc
+d direct
+ directo
+director
+irectory
+rectory 
+ectory s
+ctory sy
+tory syn
+ory synt
+ry synta
+y syntax
+ syntax 
+syntax i
+yntax in
+E protoc
+ protoco
+protocol
+rotocol 
+otocol e
+tocol er
+ocol err
+col erro
+ol error
+l error|
+ error|3
+error|3A
+rror|3A|
+ror|3A| 
+or|3A| R
+r|3A| Ro
+|3A| Roo
+3A| Root
+A| Root 
+| Root r
+ Root re
+Root req
+oot requ
+ot reque
+t reques
+ request
+request 
+equest m
+quest mi
+uest mis
+est miss
+st missi
+t missin
+ missing
+cvs serv
+vs serve
+s server
+ server|
+server|3
+erver|3A
+rver|3A|
+ver|3A| 
+er|3A| c
+r|3A| ca
+|3A| can
+3A| cann
+A| canno
+| cannot
+ cannot 
+cannot f
+annot fi
+nnot fin
+not find
+ot find 
+t find m
+ find mo
+find mod
+ind modu
+nd modul
+d module
+Invalid 
+nvalid l
+valid lo
+alid log
+lid logi
+id login
+E cvs se
+ cvs ser
+cvs serv
+vs serve
+s server
+ server|
+server|3
+erver|3A
+rver|3A|
+ver|3A| 
+er|3A| w
+r|3A| wa
+|3A| war
+3A| warn
+A| warni
+| warnin
+ warning
+warning|
+arning|3
+rning|3A
+ning|3A|
+ing|3A| 
+ng|3A| c
+g|3A| ca
+|3A| can
+3A| cann
+A| canno
+| cannot
+ cannot 
+cannot m
+annot ma
+nnot mak
+not make
+ot make 
+t make d
+ make di
+make dir
+ake dire
+ke direc
+e direct
+ directo
+director
+irectory
+rectory 
+ectory C
+ctory CV
+tory CVS
+ory CVS 
+ry CVS i
+y CVS in
+ CVS in 
+CVS in /
+/plugins
+plugins/
+lugins/h
+ugins/hp
+gins/hpj
+ins/hpjw
+ns/hpjwj
+s/hpjwja
+/hpjwja/
+hpjwja/s
+pjwja/sc
+jwja/scr
+wja/scri
+ja/scrip
+a/script
+/script/
+script/d
+cript/de
+ript/dev
+ipt/devi
+pt/devic
+t/device
+/devices
+devices_
+evices_u
+vices_up
+ices_upd
+ces_upda
+es_updat
+s_update
+_update_
+update_p
+pdate_pr
+date_pri
+ate_prin
+te_print
+e_printe
+_printer
+printer_
+rinter_f
+inter_fw
+nter_fw_
+ter_fw_u
+er_fw_up
+r_fw_upl
+_fw_uplo
+fw_uploa
+w_upload
+_upload.
+upload.h
+pload.ht
+load.hts
+Content-
+ontent-T
+ntent-Ty
+tent-Typ
+ent-Type
+nt-Type|
+t-Type|3
+-Type|3A
+Type|3A|
+Multipar
+ultipart
+/plugins
+plugins/
+lugins/h
+ugins/hp
+gins/hpj
+ins/hpjd
+ns/hpjdw
+s/hpjdwm
+/hpjdwm/
+hpjdwm/s
+pjdwm/sc
+jdwm/scr
+dwm/scri
+wm/scrip
+m/script
+/script/
+script/t
+cript/te
+ript/tes
+ipt/test
+pt/test/
+t/test/s
+/test/se
+test/set
+est/seti
+st/setin
+t/setinf
+/setinfo
+setinfo.
+etinfo.h
+tinfo.ht
+info.hts
+/plugins
+plugins/
+lugins/f
+ugins/fr
+gins/fra
+ins/fram
+ns/frame
+s/framew
+/framewo
+framewor
+ramework
+amework/
+mework/s
+ework/sc
+work/scr
+ork/scri
+rk/scrip
+k/script
+/script/
+script/t
+cript/tr
+ript/tre
+ipt/tree
+pt/tree.
+t/tree.x
+/tree.xm
+tree.xms
+WriteToF
+riteToFi
+iteToFil
+teToFile
+Location
+ocation|
+cation|3
+ation|3A
+tion|3A|
+NOTIFY *
+OTIFY * 
+echo |22
+cho |22|
+ho |22|+
+o |22|+ 
+ |22|+ +
+|22|+ +|
+22|+ +|2
+2|+ +|22
+|+ +|22|
+VERSION|
+ERSION|0
+RSION|0A
+SION|0A|
+bin|00|b
+in|00|bi
+n|00|bin
+|00|bin|
+00|bin|0
+0|bin|00
+|bin|00|
+echo |22
+cho |22|
+ho |22| 
+o |22| +
+ |22| + 
+|22| + +
+22| + + 
+2| + + |
+| + + |2
+ + + |22
++ + |22|
+root|00|
+oot|00|r
+ot|00|ro
+t|00|roo
+|00|root
+00|root|
+0|root|0
+|root|00
+root|00|
+-froot|0
+froot|00
+root|00|
+/push/an
+push/and
+ush/andr
+sh/andro
+h/androi
+/android
+androidx
+ndroidxm
+droidxml
+roidxml/
+insttime
+nsttime=
+/talktom
+talktome
+alktome.
+lktome.a
+ktome.as
+tome.asm
+ome.asmx
+/Protoco
+Protocol
+rotocolG
+otocolGW
+tocolGW/
+filename
+ilename=
+.aspx?im
+aspx?im=
+User-Age
+ser-Agen
+er-Agent
+r-Agent|
+-Agent|3
+Agent|3A
+gent|3A|
+ent|3A| 
+nt|3A| J
+t|3A| J2
+|3A| J2M
+3A| J2ME
+A| J2ME/
+| J2ME/U
+ J2ME/UC
+J2ME/UCW
+2ME/UCWE
+ME/UCWEB
+/android
+android/
+ndroid/a
+droid/an
+roid/and
+oid/andr
+id/andro
+d/androi
+/android
+android.
+ndroid.d
+droid.db
+roid.dbu
+oid.dbug
+id.dbug.
+d.dbug.p
+.dbug.ph
+dbug.php
+bug.php?
+ug.php?a
+g.php?ac
+.php?act
+php?acti
+hp?actio
+p?action
+?action=
+action=h
+ction=he
+tion=hea
+ion=hear
+on=heart
+/ss/atta
+ss/attac
+s/attach
+/attachm
+attachme
+ttachmen
+tachment
+achments
+chments/
+hments/f
+ments/fi
+ents/fil
+nts/file
+ts/files
+s/files/
+/files/U
+files/UR
+iles/URL
+les/URLs
+es/URLsh
+s/URLsho
+/URLshor
+URLshort
+RLshorte
+Lshorter
+shorter.
+horter.a
+orter.ap
+rter.apk
+<|2F|IMS
+|2F|IMSI
+/wat.php
+incorpor
+ncorpora
+corporat
+orporate
+rporatea
+porateap
+orateapp
+rateapps
+ateapps.
+teapps.c
+eapps.co
+apps.com
+/Coop/re
+Coop/req
+oop/requ
+op/reque
+p/reques
+/request
+/alotWor
+alotWork
+lotWorkT
+otWorkTa
+tWorkTas
+WorkTask
+orkTask.
+rkTask.a
+kTask.as
+Task.asp
+ask.aspx
+sk.aspx?
+k.aspx?n
+.aspx?no
+aspx?no=
+/upload/
+upload/U
+pload/Up
+load/Upl
+oad/Uplo
+ad/Uploa
+d/Upload
+/UploadF
+UploadFi
+ploadFil
+loadFile
+oadFiles
+adFiles.
+dFiles.a
+Files.as
+iles.asp
+les.aspx
+es.aspx?
+s.aspx?a
+.aspx?as
+aspx?ask
+spx?askI
+px?askId
+x?askId=
+/Submit.
+Submit.a
+ubmit.as
+bmit.asp
+mit.aspx
+it.aspx?
+t.aspx?v
+.aspx?ve
+aspx?ver
+spx?ver=
+/android
+android_
+ndroid_n
+droid_no
+roid_not
+oid_noti
+id_notif
+d_notifi
+_notifie
+notifier
+otifier/
+tifier/n
+ifier/no
+fier/not
+ier/noti
+er/notif
+r/notifi
+/notifie
+notifier
+otifier.
+tifier.p
+ifier.ph
+fier.php
+ier.php?
+er.php?a
+r.php?ap
+.php?app
+php?app=
+&deviceI
+deviceId
+eviceId=
+&mobile=
+&country
+country=
+&carrier
+carrier=
+/Android
+AndroidS
+ndroidSe
+droidSer
+roidServ
+oidServi
+idServic
+dService
+Service.
+ervice.a
+rvice.as
+vice.asp
+ice.aspx
+ce.aspx?
+e.aspx?i
+.aspx?im
+aspx?ims
+spx?imsi
+px?imsi=
+&ownerid
+ownerid=
+&testchl
+testchli
+estchlid
+stchlid=
+&android
+androidv
+ndroidve
+droidver
+roidver=
+/search/
+search/i
+earch/is
+arch/isa
+rch/isav
+ch/isava
+h/isavai
+/isavail
+isavaila
+savailab
+availabl
+vailable
+.php?ime
+php?imei
+hp?imei=
+User-Age
+ser-Agen
+er-Agent
+r-Agent|
+-Agent|3
+Agent|3A
+gent|3A 
+ent|3A 2
+nt|3A 20
+t|3A 20|
+|3A 20|a
+3A 20|ad
+A 20|adl
+ 20|adli
+20|adlib
+0|adlib/
+/android
+android_
+ndroid_n
+droid_no
+roid_not
+oid_noti
+id_notif
+d_notifi
+_notifie
+notifier
+otifier/
+tifier/n
+ifier/no
+fier/not
+ier/noti
+er/notif
+r/notifi
+/notifie
+notifier
+otifier.
+tifier.p
+ifier.ph
+fier.php
+ier.php?
+er.php?h
+r.php?h=
+/Protoco
+Protocol
+rotocolG
+otocolGW
+tocolGW/
+ocolGW/p
+colGW/pr
+olGW/pro
+lGW/prot
+GW/proto
+W/protoc
+/protoco
+protocol
+rotocol/
+otocol/c
+tocol/co
+ocol/com
+col/comm
+ol/comma
+l/comman
+/command
+commands
+<|2F|IME
+|2F|IMEI
+2F|IMEI>
+".blackb
+.blackbe
+blackber
+lackberr
+ackberry
+ckberry.
+kberry.c
+berry.co
+erry.com
+rry.com|
+ry.com|0
+y.com|0d
+.com|0d 
+com|0d 0
+om|0d 0a
+m|0d 0a|
+".nokia.
+.nokia.c
+nokia.co
+okia.com
+kia.com|
+ia.com|0
+a.com|0d
+.com|0d 
+com|0d 0
+om|0d 0a
+m|0d 0a|
+".sonyer
+.sonyeri
+sonyeric
+onyerics
+nyericss
+yericsso
+ericsson
+ricsson.
+icsson.c
+csson.co
+sson.com
+son.com|
+on.com|0
+n.com|0d
+.com|0d 
+com|0d 0
+om|0d 0a
+m|0d 0a|
+/clientR
+clientRe
+lientReq
+ientRequ
+entReque
+ntReques
+tRequest
+Request.
+equest.h
+quest.ht
+uest.htm
+est.htm?
+st.htm?m
+t.htm?me
+.htm?met
+htm?meth
+tm?metho
+m?method
+?method=
+&sdkVers
+sdkVersi
+dkVersio
+kVersion
+Version=
+/phone_g
+phone_ge
+hone_get
+one_geti
+ne_getin
+e_getinf
+_getinfo
+getinfok
+etinfoko
+tinfokou
+infokou_
+nfokou_a
+fokou_an
+okou_and
+kou_andr
+ou_andro
+u_androi
+_android
+android.
+ndroid.p
+droid.ph
+roid.php
+/geturl.
+geturl.a
+eturl.as
+turl.asp
+url.aspx
+rl.aspx?
+l.aspx?e
+.aspx?em
+aspx?ema
+spx?emai
+px?email
+x?email=
+/control
+controls
+ontrols.
+ntrols.p
+trols.ph
+rols.php
+User-Age
+ser-Agen
+er-Agent
+r-Agent|
+-Agent|3
+Agent|3a
+gent|3a|
+ent|3a| 
+nt|3a| D
+t|3a| Da
+|3a| Dal
+3a| Dalv
+a| Dalvi
+| Dalvik
+ Dalvik/
+/send.ph
+send.php
+end.php?
+nd.php?a
+d.php?a_
+.php?a_i
+php?a_id
+hp?a_id=
+&m_addr=
+/Android
+Android_
+ndroid_S
+droid_SM
+roid_SMS
+oid_SMS/
+id_SMS/i
+d_SMS/in
+_SMS/ins
+SMS/inst
+MS/insta
+S/instal
+/install
+installi
+nstallin
+stalling
+talling.
+alling.p
+lling.ph
+ling.php
+/Android
+Android_
+ndroid_S
+droid_SM
+roid_SMS
+oid_SMS/
+id_SMS/r
+d_SMS/re
+_SMS/rec
+SMS/rece
+MS/recei
+S/receiv
+/receivi
+receivin
+eceiving
+ceiving.
+eiving.p
+iving.ph
+ving.php
+/RegistU
+RegistUi
+egistUid
+gistUid.
+istUid.a
+stUid.as
+tUid.asp
+/securit
+security
+ecurity.
+curity.j
+urity.js
+rity.jsp
+/srev.as
+srev.asp
+&b_name=

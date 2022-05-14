@@ -1,0 +1,9 @@
+#ifndef __ERRORS_H__
+#define __ERRORS_H__
+
+#define ERR_INVALID_HOME_DIRECTORY_PATH   0x1
+#define ERR_INVALID_CERTIFICATE_PATH      0x2
+#define ERR_INVALID_PRIVATE_KEY_PATH      0x3
+#define ERR_INVALID_CA_CERTIFICATE_PATH   0x4
+
+#endif /* __ERRORS_H__ */
